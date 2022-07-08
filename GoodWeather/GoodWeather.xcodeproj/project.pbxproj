@@ -22,6 +22,8 @@
 		01BB685428779CED003D8F5D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB685328779CED003D8F5D /* String+Extensions.swift */; };
 		01BB68562877A66C003D8F5D /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB68552877A66C003D8F5D /* WeatherListViewModel.swift */; };
 		01BB68582877ED45003D8F5D /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB68572877ED45003D8F5D /* Double+Extensions.swift */; };
+		01BB685A28789E25003D8F5D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB685928789E25003D8F5D /* SettingsViewModel.swift */; };
+		01BB685C28789E85003D8F5D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB685B28789E85003D8F5D /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		01BB685328779CED003D8F5D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		01BB68552877A66C003D8F5D /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		01BB68572877ED45003D8F5D /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		01BB685928789E25003D8F5D /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		01BB685B28789E85003D8F5D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				01BB684D28779A68003D8F5D /* AddWeatherViewModel.swift */,
 				01BB68552877A66C003D8F5D /* WeatherListViewModel.swift */,
+				01BB685928789E25003D8F5D /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				01BB684228774895003D8F5D /* WeatherListTableViewController.swift */,
 				01BB6844287748D4003D8F5D /* AddWeatherCityViewController.swift */,
+				01BB685B28789E85003D8F5D /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -227,8 +233,10 @@
 				01BB685428779CED003D8F5D /* String+Extensions.swift in Sources */,
 				01BB68562877A66C003D8F5D /* WeatherListViewModel.swift in Sources */,
 				01BB684328774895003D8F5D /* WeatherListTableViewController.swift in Sources */,
+				01BB685C28789E85003D8F5D /* SettingsTableViewController.swift in Sources */,
 				01BB682B28773611003D8F5D /* AppDelegate.swift in Sources */,
 				01BB684C28779270003D8F5D /* WeatherResponse.swift in Sources */,
+				01BB685A28789E25003D8F5D /* SettingsViewModel.swift in Sources */,
 				01BB6848287750A6003D8F5D /* WeatherCell.swift in Sources */,
 				01BB6845287748D4003D8F5D /* AddWeatherCityViewController.swift in Sources */,
 				01BB682D28773611003D8F5D /* SceneDelegate.swift in Sources */,
